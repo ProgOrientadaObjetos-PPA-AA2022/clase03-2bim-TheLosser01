@@ -6,6 +6,7 @@
 package herencia3;
 
 import java.util.ArrayList;
+import java.util.Locale;
 
 /**
  *
@@ -57,7 +58,20 @@ public class ReportePresencial extends Reporte{
     
     @Override
     public String toString(){
-        return "";
+      String cadena = String.format("%s\nCarrera: %s \n"
+                + "Total Matriculas Distancia: %.2f\n\n"
+                + "El promedio general es: %.2f\n", 
+                nombre,
+                carrera,
+                ciclo,
+                obtenerTotalMatriculasDistancia());
+      for (int i = 0; i < lista.size(); i++){
+          cadena = String.format("  ")
+      }
+        return cadena;  
     }
+        
+        
+        
     
 }
