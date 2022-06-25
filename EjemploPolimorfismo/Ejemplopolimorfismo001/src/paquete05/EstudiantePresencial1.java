@@ -5,9 +5,7 @@
  */
 package paquete05;
 
-import paquete04.*;
-
-public class EstudiantePresencial1 extends Estudiante{
+public class EstudiantePresencial1 extends Estudiante1{
     /*1.  Declarar
         numeroCreditos: Entero 
         costoCredito: Real 

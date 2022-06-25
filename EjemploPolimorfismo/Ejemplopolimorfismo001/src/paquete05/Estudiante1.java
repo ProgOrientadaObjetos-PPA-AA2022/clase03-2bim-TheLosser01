@@ -80,4 +80,21 @@ public abstract class Estudiante1 {
     public double obtenerMatricula(){
         return matricula;
     }
+    
+     @Override
+
+    public String toString() {
+
+        String cadena = String.format("\nNombres: %s"
+                + "\nApellidos: %s"
+                + "\nIdentificacion: %s"
+                + "\nEdad: %d"
+                + "\nCosto matrícula: %.2f\n",
+                obtenerNombresEstudiante(),
+                obtenerApellidoEstudiante(),
+                obtenerIdentificacionEstudiante(),
+                obtenerEdadEstudiante(),
+                obtenerMatricula());
+        return cadena;
+    }
 }

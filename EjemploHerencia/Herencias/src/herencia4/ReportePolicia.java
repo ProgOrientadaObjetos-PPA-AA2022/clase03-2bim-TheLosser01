@@ -26,7 +26,6 @@ public class ReportePolicia extends Reporte {
     }
 
     public void setPromedioEdades(double promedioEdades) {
-        this.promedioEdades = promedioEdades;
         for (int i = 0; i < lista.size(); i++) {
 
             promedioEdades = promedioEdades + lista.get(i).getEdad();

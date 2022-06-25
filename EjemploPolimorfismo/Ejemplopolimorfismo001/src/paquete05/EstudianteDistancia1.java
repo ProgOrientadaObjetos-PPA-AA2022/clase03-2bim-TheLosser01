@@ -6,7 +6,7 @@
 package paquete05;
 
 
-public class EstudianteDistancia1 extends Estudiante {
+public class EstudianteDistancia1 extends Estudiante1 {
     /*1.  Declarar
         numeroAsignaturas: Entero 
         costoAsginatura: Real 

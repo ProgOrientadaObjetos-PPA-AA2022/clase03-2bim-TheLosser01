@@ -41,11 +41,11 @@ public class Principal {
 
         ReporteDocente rd = new ReporteDocente("0001Doc");
         rd.establecerLista(listaDocentes);
-        rd.establecerPromedioSueldos(ps);
+        rd.establecerPromedioSueldos(0);
 
         ReporteEstudiante re = new ReporteEstudiante("0001Est");
         re.establecerLista(listaEstudiantes);
-        re.establecerPromedioMatriculas(pM);
+        re.establecerPromedioMatriculas(0);
 
         ReportePolicia rp = new ReportePolicia("0001Pol");
         rp.getLista();

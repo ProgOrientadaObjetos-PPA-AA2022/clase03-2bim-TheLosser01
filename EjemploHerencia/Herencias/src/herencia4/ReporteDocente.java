@@ -25,7 +25,6 @@ public class ReporteDocente extends Reporte{
     }
 
     public void establecerPromedioSueldos(double pS) {
-        promedioSueldos = pS;
         for (int i = 0; i < lista.size() ; i++) {
             
             promedioSueldos = promedioSueldos + lista.get(i).getSueldo();
